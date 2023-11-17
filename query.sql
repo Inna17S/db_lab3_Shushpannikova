@@ -18,6 +18,6 @@ JOIN Songs ON Chart.Song_ID = Songs.Song_ID;
 
 
 --3 запит - Вивести таблицю тривалості треку та його позицію в чарті
-SELECT Chart.position, Songs.duratio_ms
+SELECT Chart.position, Songs.duration_ms
 FROM Chart
 JOIN Songs ON Chart.Song_ID = Songs.Song_ID;
